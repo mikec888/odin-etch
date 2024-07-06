@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    height: 800px;
+    width: 800px;
+    /* border: 10px solid pink; */
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    
+
+}
+
+div {
+    outline: 1px solid black;
+}
