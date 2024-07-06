@@ -2,14 +2,26 @@
     display: flex;
     height: 800px;
     width: 800px;
-    /* border: 10px solid pink; */
+    border: 10px solid pink;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     flex-wrap: wrap;
     
 
 }
 
-div {
-    outline: 1px solid black;
+* {
+    /* outline: 1px solid black; */
+}
+
+.option1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+}
+
+body {
+    display: flex;
 }
