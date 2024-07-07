@@ -7,11 +7,21 @@
     <title>Etch-a-Sketch</title>
 </head>
 <body>
-    <div class="option1">
-        <h1>Etch-a-Sketch</h1>
-        <button type="button" id="chooseButton">Choose a number up to 100</button>
-        <p>Or, choose one of the following to get started</p>
-        <button type="button" id="button16">16x16</button>
+    <div class="options">
+        <div class="option1">
+            <h1>Etch-a-Sketch</h1>
+            <button type="button" id="chooseButton">Choose a number up to 100</button>        
+            <p>Or, choose one of the following to get started</p>
+            <button type="button" id="button16">16x16</button>
+        </div>
+        <div class="option2">
+            <input type="checkbox" id="randomColor" name="randomColor" value="randomColor">
+            <label for="randomColor"> Random Color</label><br>
+            <input type="checkbox" id="transparentColor" name="transparentColor" value="transparentColor">
+            <label for="transparentColor"> Transparent Color</label><br>
+            <input type="checkbox" id="outlineOn" name="outlineOn" value="outlineOn">
+            <label for="outlineOn"> Outline On</label><br>
+        </div>
     </div>
     <div id="container"></div>
 
